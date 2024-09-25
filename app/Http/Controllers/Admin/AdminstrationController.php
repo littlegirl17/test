@@ -7,6 +7,7 @@ use App\Models\Administration;
 use App\Models\AdministrationGroup;
 use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\admin\ProductAdminRequest;
 
 class AdminstrationController extends Controller
 {
@@ -19,7 +20,7 @@ class AdminstrationController extends Controller
         $this->administrationGroupModel = new AdministrationGroup();
     }
 
-    public function administrationSearch(Request $request)
+    public function administrationSearch(ProductAdminRequest $request)
     {
         $fillter_name = $request->input('filter_name');
         $filter_adminGroup = $request->input('filter_adminGroup');
