@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Administration;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-kha 200
+kha 2000
 class LoginController extends Controller
 {
     private $administrationModel;
