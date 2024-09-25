@@ -7,7 +7,10 @@ use App\Models\Administration;
 use App\Models\AdministrationGroup;
 use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
+
 đây là main
+
+
 class AdminstrationController extends Controller
 {
     private $administrationModel;
