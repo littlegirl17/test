@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 use App\Models\Administration;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+
 main
+
 class LoginController extends Controller
 {
     private $administrationModel;
