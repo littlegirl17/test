@@ -7,7 +7,7 @@ use App\Models\Administration;
 use App\Models\AdministrationGroup;
 use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
-đây là kha
+đây là khaa
 class AdminstrationController extends Controller
 {
     private $administrationModel;
